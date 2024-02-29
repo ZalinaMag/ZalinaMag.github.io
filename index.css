@@ -1,0 +1,98 @@
+body {
+  animation-name: fadeInOut;
+  animation-duration: 5s;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("mountains3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.title {
+  color: rgb(53, 53, 55);
+  font-size: x-large;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-style: oblique;
+}
+
+.main_content {
+  align-content: center;
+}
+
+.info {
+  margin-left: 350px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-style: oblique;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+.text {
+  opacity: 0.6;
+}
+
+.text:hover {
+  opacity: 1;
+}
+
+.text h3 {
+  font-size: larger;
+  color: rgb(62, 58, 65);
+  word-spacing: 1px;
+}
+
+.text p {
+  color: rgb(17, 18, 19);
+}
+
+.image {
+  border-radius: 50%;
+  width: 150px;
+  height: 164.71px;
+  margin-left: 100px;
+}
+
+.image_top {
+  border-radius: 50%;
+  width: 150px;
+  height: 164.71px;
+  margin-left: 100px;
+}
+
+#fade_out {
+  height: 100%;
+  width: auto;
+  margin-bottom: 150px;
+}
+
+#fade_out img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 2s linear;
+  -moz-transition: opacity 2s linear;
+  transition: opacity 2s linear;
+}
+
+#fade_out img.image_top:hover {
+  opacity: 0;
+}
+
+.footer {
+  color: rgb(53, 53, 55);
+  font-size: small;
+  font-weight: 500;
+  opacity: 0.7;
+  text-align: center;
+  margin-top: 115px;
+  margin-left: 50px;
+}
